@@ -1,0 +1,142 @@
+/*导航框*/
+nav {
+  flex: 0 0 200px;
+  border-top: 1px solid white;
+}
+/*导航标题*/
+nav > h1 {
+  color: #22842C;
+  font-weight: normal;
+  margin: 15px auto 9px auto;
+}
+/*导航无序列表*/
+nav > ul {
+  margin-top: -5px;
+  list-style-type: none;
+  padding-left: 20px;
+}
+/*导航列表项*/
+nav > ul > li {
+  padding: 5.5px 0;
+}
+
+/*书架弹性盒项目属性*/
+.new-book {
+  flex: 0 0 793px;
+  margin-top: 1px;
+}
+/*弹性盒容器属性*/
+.book-list {
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/*弹性盒标题图片*/
+.new-book-title > img {
+  width: 100%;
+}
+/*书本属性*/
+.book {
+  flex: 0 1 166px;
+  margin: 9px 6px 19px 10px;
+}
+/*书本图片*/
+.book > img {
+  height: 180px;
+}
+/*书本题目*/
+.book-title {
+  margin: -2px 0 0 0;
+  font-size: 0.94rem;
+}
+/*书本作者*/
+.author {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #747474;
+}
+/*书本价格*/
+.price {
+  margin: 1px 0;
+  font-size: 0.84rem;
+  color: #eb1419;
+  font-weight: bold;
+}
+
+/*登录区和公告栏弹性盒*/
+aside {
+  flex: 0 1 98px;
+  margin-left: 42px;
+  border-top: 1px solid white;
+}
+
+/*登录区*/
+.login {
+  padding-bottom: 5px;
+}
+/*登录区标题*/
+.login > h1 {
+  color: #22842C;
+  font-weight: normal;
+  margin: 15px auto 9px auto;
+}
+/*登陆区段落*/
+.login > form > p {
+  display: flex;
+  width: 100%;
+  margin: 9px 0;
+  font-size: 1.1rem;
+  justify-content: space-between;
+}
+/*登陆文本框*/
+.login > form > p > input {
+  margin: 4px 45px 0 0;
+  height: 15px;
+}
+/*登陆区按钮*/
+.login-button > button {
+  margin: 0 20px;
+  height: 30px;
+  width: 60px;
+  font-size: 1rem;
+}
+
+/*公告栏标题盒*/
+.news-header {
+  display: flex;
+  padding-bottom: 4px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  justify-content: space-between;
+}
+/*“公告”弹性盒*/
+.news-header > h2 {
+  margin: 7px 0;
+  line-height: 22px;
+  padding-right: 10px;
+  font-weight: normal;
+  font-size: 1.2rem;
+  border-right: 2px solid #878787;
+  height: 22px;
+}
+/*“更多”弹性盒*/
+.news-header > p {
+  margin: 4px 8px 0 auto;
+  font-size: 1.2rem;
+}
+/*新闻无序列表*/
+.news-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 2px 0;
+}
+/*新闻无序列表项*/
+.news-list > li {
+  font-size: 0.91rem;
+  padding: 6.4px 0;
+}

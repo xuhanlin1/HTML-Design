@@ -1,0 +1,107 @@
+/*头部红粗线*/
+header > hr {
+  border-top: 6px solid red;
+  margin-top: -3px;
+}
+
+/*登录区样式*/
+.reg {
+  background-color: white;
+  box-shadow:-8px 0 5px #d4d4d4, -8px 8px 5px #d4d4d4;
+  margin: 45px 0 12px 12px;
+  height: 500px;
+}
+
+/*标题区*/
+.reg-header {
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+/*新用户注册*/
+.reg-header > h1 {
+  font-size: 2.04rem;
+  font-family: "宋体";
+  font-weight: medium;
+  margin-left: 36px;
+}
+/*淘书网超链接*/
+.reg-header > a {
+  margin: 0 30px 23px auto;
+  color:black;
+  font-size: 1rem;
+}
+
+/*表单区*/
+.reg > form {
+  text-align: center;
+  padding-bottom: 61px;
+}
+/*表单-标签*/
+.reg > form > label {
+  font-size: 1.4rem;
+  margin: 2px auto 2px -37px;
+}
+/*表单-输入框*/
+.reg > form > label > input {
+  font-size: 1.5rem;
+  height: 2.2rem;
+  width: 422px;
+  margin-left: 19px;
+}
+/*表单-输入-注释*/
+.desp1 {
+  text-align: center;
+  margin-left: 70px;
+  color:#C0C0C0;
+  font-size: 1.1rem;
+}
+/*表单-输入-注释2*/
+.desp2 {
+  text-align: center;
+  margin-left: 45px;
+  color:#C0C0C0;
+  font-size: 1.1rem;
+}
+
+/*单选框区*/
+p.check{
+  margin-left: 60px;
+}
+/*认证*/
+.license-checkbox {
+  margin-left: 15px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+/*“立即注册”按钮*/
+#register{
+  width: 150px;
+  height: 47px;
+  font-size: 1.2rem;
+  font-family: "宋体";
+  font-weight: bold;
+  background-color: red;
+  border-radius: 21px;
+  color: white;
+  margin: 15px auto auto -80px;
+  border: none;
+}
+
+/*底线*/
+.footer-hr {
+  border-top: 3px solid #d2d2d2;
+  margin: 47.5px -15px;
+}
+
+/*错误提示*/
+#error {
+  margin-top:-5px;
+  margin-left: 20px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color:red;
+  display: none;
+}

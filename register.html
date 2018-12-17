@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="utf-8">
+     <title>新用户注册</title>
+     <link rel="stylesheet" href="./style/global.css">
+     <link rel="stylesheet" href="./style/register.css">
+   </head>
+   <body>
+     <div class="container">
+       <header>
+         <div class="header-img">
+           <img src="./images/book.jpg" alt="首页头图">
+         </div>
+         <hr>
+       </header>
+       <div class="reg">
+          <div class="reg-header">
+            <h1>新用户注册</h1>
+            <a href="./taoshu.html">淘书网首页</a>
+          </div>
+          <form action="">
+            <label for="phone">手机号码
+              <input type="tel" name="phone" pattern="[0-9]{11}" required>
+            </label>
+            <p class="desp1">手机号可用于登录、找回密码、接收订通知等服务</p>
+            <label for="password">登录密码
+              <input type="password" name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[^]{6,12}$" required>
+            </label>
+            <p class="desp2">包含大写字母、小写字母和数字的6~12个字符</p>
+            <label for="confirm">确认密码
+              <input type="password" name="confirm" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[^]{6,12}$" required>
+            </label>
+          <br>
+          <p class="check">
+            <input type="checkbox" name="accept" id="accept" value="true" checked><span class="license-checkbox">我已阅读同意《淘书网交易条款》和《淘书网社区条款》</span>
+          </p>
+          <div id="error">您必须同意淘书网服务条款后，才能提交注册。</div>
+          <div class="reg-button">
+            <button id="register">立即注册</button>
+          </div>
+         </form>
+       </div>
+       <hr class="footer-hr">
+       <footer>
+         <ul class="footer-link-ul">
+           <li><a href="#">关于我们</a></li>
+           <li><a href="#">联系我们</a></li>
+           <li><a href="#">合作招商</a></li>
+           <li><a href="#">友情链接</a></li>
+           <li><a href="#">隐私政策</a></li>
+         </ul>
+         <p>版权所有 &copy; 2017-2018 淘书网 保留所有权利 地址：南京市龙蟠路159号</p>
+       </footer>
+     </div>
+  <script>
+  document.getElementById("accept").onchange = function() {
+    if(document.getElementById("accept").checked == true) {
+      document.getElementById("error").style.display = 'none';
+      document.querySelector('#register').removeAttribute('disabled');
+    } else {
+      document.getElementById("error").style.display = 'block';
+      document.querySelector('#register').setAttribute('disabled',true);
+    }
+  };
+  </script>
+  </body>
+ </html>

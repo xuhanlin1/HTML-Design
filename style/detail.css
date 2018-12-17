@@ -1,0 +1,120 @@
+/*全局框架*/
+.func-area1 {
+  margin-top: 32px;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 29px 117px 0;
+  border-top: 1px solid white;
+  }
+
+/*图片长度*/
+.book-img {
+  flex: 0 0 283px;
+  height: 368px;
+}
+/*图片全显示*/
+.book-img > img {
+  width: 100%;
+  height: 100%;
+}
+
+/*图书介绍*/
+.book-desp {
+  margin-left: 25px;
+}
+
+/*书名*/
+.book-name {
+  margin: 3px 0;
+  padding-bottom: 11px;
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: blue;
+  border-bottom: 2px solid #d4d4d4;
+}
+
+/*段落字体*/
+.book-desp p {
+  margin:12px 0;
+  font-size: 0.9rem;
+}
+/*段落内超链接*/
+.book-desp a {
+  color: blue;
+}
+
+/*行内块*/
+.content-title {
+  display: inline-block;
+  width: 63px;
+  text-align-last: justify;
+}
+
+/*价格区*/
+.price {
+  margin:-6px 0 -2px 0 !important;
+}
+/*价格*/
+.price-num {
+  color: red;
+  font-size: 1.2rem;
+}
+
+/*内容简介*/
+.desp-content {
+  margin-top: -7px !important;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed white;
+}
+
+/*配送和服务详情*/
+.to, .service {
+  margin: 9px 0 !important;
+}
+
+/*配送文本框*/
+.to input {
+  width: 200px;
+}
+/*加粗*/
+.storage {
+  font-weight: bold;
+}
+
+/*下单*/
+.operation-area {
+  margin: 36px 0;
+}
+
+/*number*/
+.buy-quantity {
+  width: 24px;
+  font-size: 0.95rem;
+  height: 1.7rem;
+  padding: 0 18px;
+  margin-right: 11px;
+}
+
+/*圆角矩形*/
+.operation-area > button {
+  height: 1.7rem;
+  margin: 0 12px;
+  width: 120px;
+  font-size: 0.98rem;
+  border-radius: 6px;
+  border: none;
+  color: white;
+}
+
+/*加入购物车+立即购买*/
+.add-to-cart, .buy {
+  background-color: red;
+}
+
+/*购买电子书*/
+.buy-ebook {
+  background-color: #6595e9;
+}

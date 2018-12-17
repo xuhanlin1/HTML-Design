@@ -1,0 +1,127 @@
+/*全局背景*/
+html {
+  background-color: #e4e5f9;
+  font-family: "微软雅黑", SimHei, sans-serif;
+}
+
+/*页面布局*/
+.container {
+  width: 1333px;
+  margin: 0 auto;
+}
+
+/*头部图片*/
+.header-img > img {
+  width: 100%;
+  border-bottom: 4px solid #D2D0D1;
+}
+
+/*标题弹性盒*/
+.header-title {
+  display:flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin: 26px 0;
+}
+
+/*标题样式*/
+.logo {
+  margin:  2px auto auto 52px;
+  color: #f41e1c;
+  font-family: "华文新魏";
+  font-size: 2rem;
+}
+
+/*搜索框样式*/
+.search {
+  margin: 0 auto 0 82px;
+}
+
+/*搜索框和搜索键*/
+.search-form > input {
+  width: 506px;
+  height: 38px;
+  border: 2px solid #8997B2;
+}
+.search-form > button {
+  background-color: #fd0304;
+  height: 35px;
+  margin: -2px auto auto -5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  width: 61px;
+}
+
+/*我的购物车*/
+.cart {
+  margin: 0 72px 4px auto;
+}
+.cart > button {
+  height: 30px;
+  width: 150px;
+  color: #eb1419;
+  border: none;
+  background-color: white;
+  font-size: 1.1rem;
+  line-height: 1.1rem;
+}
+
+/*主体布局*/
+.func-area {
+  margin-top: 32px;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+a:link {
+  color: inherit;
+  text-decoration: inherit;
+}
+a:visited {
+  color: inherit;
+  text-decoration: inherit;
+}
+.header-title {
+  display:flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin: 26px 0;
+}
+
+/*尾部框*/
+footer {
+  background-color: #d2d2d2;
+  text-align: center;
+  font-size: 0.83rem;
+  font-weight: bold;
+}
+/*尾部无序列表*/
+.footer-link-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 22px 0;
+}
+/*尾部无序列表项*/
+.footer-link-ul > li {
+  display: inline;
+  border-right: 2px solid black;
+  padding: 0 7px;
+}
+/*最后一个列表项无右框线*/
+.footer-link-ul > :last-child {
+  border-right: none;
+}
+/*地址信息等*/
+footer > p {
+  margin: 0;
+  padding-bottom: 22px;
+}
